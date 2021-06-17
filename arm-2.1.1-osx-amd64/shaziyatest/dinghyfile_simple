@@ -1,0 +1,25 @@
+{
+  "application": "helloworld",
+  "pipelines": [
+    {
+      "application": "helloworld",
+      "name": "Wait Pipeline",
+      "isNew": true,
+      "keepWaitingPipelines": false,
+      "lastModifiedBy": "justin@acompany.com",
+      "limitConcurrent": true,
+      "stages": [
+        {
+          "isNew": true,
+          "name": "Wait",
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "type": "wait",
+          "waitTime": 30
+        }
+      ],
+      "triggers": [],
+      "updateTs": "1572455128000"
+    }
+   ]
+}

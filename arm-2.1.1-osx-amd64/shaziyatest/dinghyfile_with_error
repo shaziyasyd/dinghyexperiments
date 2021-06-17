@@ -1,0 +1,12 @@
+{
+  "application": "yourspinnakerapplicationname",
+  "pipelines": [
+    {
+      "application": "yourspinnakerapplicationname",
+      "name": "Made By Armory Pipeline Templates",
+      "stages": [
+        {{ module "wait.stage.module" "name" "wait-for-cache-warm-up" "waitTime" 42 }}
+      ]
+    }
+  ]
+}
